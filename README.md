@@ -33,7 +33,7 @@ Results:
 ### Take-aways
 - **Accuracy**: Plain MLP consistently **≥ PyKAN** and **> FastKAN** across every label budget.  
 - **Calibration**: MLP achieves **lower ECE & Brier scores** after temperature scaling.  
-- **Stability**: KAN variants show **negative or extreme temperature values** on several seeds, leading to blown-up NLL/Brier (red rows) and worse calibration.  
+n.  
 - **Efficiency**: All models have ~ 267–269 k trainable parameters—differences are **architectural**, not capacity.
 
 > TL;DR: In the few-shot regime with a frozen backbone, a simple MLP outperforms both spline-based KAN variants on accuracy **and** calibration.
